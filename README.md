@@ -6,7 +6,7 @@ Una función PHP que retorna un array con las fechas de todos los festivos de Co
 Llamar a la función festivos(), sin ningún parámetro, retornará un array con los festivos del año actual. Se le puede pasar el año del cual obtener los festivos:
 
 festivos():
-
+```
 Array
 (
     [Año nuevo] => 2015-01-01
@@ -30,10 +30,10 @@ Array
     [Inmaculada concepción] => 2015-12-08
     [Navidad] => 2015-12-25
 )
-
+```
 
 festivos(2020):
-
+```
 Array
 (
     [Año nuevo] => 2020-01-01
@@ -57,4 +57,4 @@ Array
     [Inmaculada concepción] => 2020-12-08
     [Navidad] => 2020-12-25
 )
-
+```
